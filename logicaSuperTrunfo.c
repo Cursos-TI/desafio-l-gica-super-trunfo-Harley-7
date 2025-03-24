@@ -178,8 +178,8 @@ int main() {
    case 5:
        //Comparação entre as Densidades Populacionais
        printf("Comparação de cartas (Atributo: Densidade Populacional): \n");
-       printf("Carta 1 - %s : %d \n", nome_da_cidade_carta1, densidade_populacional_carta1);
-       printf("Carta 2 - %s : %d \n", nome_da_cidade_carta2, densidade_populacional_carta2);
+       printf("Carta 1 - %s : %f \n", nome_da_cidade_carta1, densidade_populacional_carta1);
+       printf("Carta 2 - %s : %f \n", nome_da_cidade_carta2, densidade_populacional_carta2);
 
        if(densidade_populacional_carta1 < densidade_populacional_carta2){
            printf("Resultado: Carta 1 %s  venceu ! \n", nome_da_cidade_carta1);
@@ -192,8 +192,8 @@ int main() {
    case 6:
        //Comparação entre o atributo PIB per Capita
        printf("Comparação de cartas (Atributo: PIB per Capita): \n");
-       printf("Carta 1 - %s : %d \n", nome_da_cidade_carta1, pib_per_capita_carta1);
-       printf("Carta 2 - %s : %d \n", nome_da_cidade_carta2, pib_per_capita_carta2);
+       printf("Carta 1 - %s : %f \n", nome_da_cidade_carta1, pib_per_capita_carta1);
+       printf("Carta 2 - %s : %f \n", nome_da_cidade_carta2, pib_per_capita_carta2);
 
        if(pib_per_capita_carta1 > pib_per_capita_carta2){
            printf("Resultado: Carta 1 %s  venceu ! \n", nome_da_cidade_carta1);
@@ -206,8 +206,8 @@ int main() {
    case 7: 
        //Comparação entre o atributo Super Poder
        printf("Comparação de cartas (Atributo: Super Poder): \n");
-       printf("Carta 1 - %s : %d \n", nome_da_cidade_carta1, super_poder_carta1);
-       printf("Carta 2 - %s : %d \n", nome_da_cidade_carta2, super_poder_carta2);
+       printf("Carta 1 - %s : %f \n", nome_da_cidade_carta1, super_poder_carta1);
+       printf("Carta 2 - %s : %f \n", nome_da_cidade_carta2, super_poder_carta2);
 
        if(super_poder_carta1 > super_poder_carta2){
            printf("Resultado: Carta 1 %s  venceu ! \n", nome_da_cidade_carta1);
